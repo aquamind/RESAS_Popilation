@@ -10,9 +10,12 @@
     "postinstall": "typesync"
   },
   "dependencies": {
+    "ky": "^0.30.0",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "recharts": "^2.1.10",
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "@types/eslint": "^8.4.3",
@@ -21,6 +24,7 @@
     "@types/prettier": "^2.6.3",
     "@types/react": "18.0.12",
     "@types/react-dom": "18.0.5",
+    "@types/shortid": "^0.0.29",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
     "eslint": "^8.2.0",
